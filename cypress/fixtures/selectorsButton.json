@@ -1,0 +1,258 @@
+[
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-stroked-button mat-button-base",
+    "ng_reflect_message": "Ir al Inicio ",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-button mat-button-base ng-star-inserted",
+    "ng_reflect_message": "Añadir Documento",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator overlap-button mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Copiar 67b511ddb6819e290a21949",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Descargar documento",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger eye-button mat-icon-button mat-button-base ng-star-inserted",
+    "ng_reflect_message": "Procesar manualmente",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Copiar 67b5116db6819e290a21949",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Descargar documento",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger eye-button mat-icon-button mat-button-base ng-star-inserted",
+    "ng_reflect_message": "Procesar manualmente",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Copiar 67b510edb6819e290a21949",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Descargar documento",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger eye-button mat-icon-button mat-button-base ng-star-inserted",
+    "ng_reflect_message": "Procesar manualmente",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Copiar 67b50f9cb6819e290a21949",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Descargar documento",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger eye-button mat-icon-button mat-button-base ng-star-inserted",
+    "ng_reflect_message": "Procesar manualmente",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Copiar 67b50f1fb6819e290a21949",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Descargar documento",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger eye-button mat-icon-button mat-button-base ng-star-inserted",
+    "ng_reflect_message": "Procesar manualmente",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Copiar 67b5004bb6819e290a21949",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": "Descargar documento",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger eye-button mat-icon-button mat-button-base ng-star-inserted",
+    "ng_reflect_message": "Procesar manualmente",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-menu-trigger mat-icon-button mat-button-base",
+    "ng_reflect_message": null,
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-paginator-navigation-previous mat-icon-button mat-button-base mat-button-disabled",
+    "ng_reflect_message": "Previous page",
+    "src": null,
+    "value": null
+  },
+  {
+    "tag": "button",
+    "id": null,
+    "class": "mat-focus-indicator mat-tooltip-trigger mat-paginator-navigation-next mat-icon-button mat-button-base mat-button-disabled",
+    "ng_reflect_message": "Next page",
+    "src": null,
+    "value": null
+  }
+]

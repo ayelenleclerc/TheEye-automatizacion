@@ -1,0 +1,23 @@
+{
+  "name": "theeye-automatizacion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test-dev": "cypress run",
+    "test-chrome": "cypress run --browser chrome",
+    "test-brave": "cypress run --browser brave",
+    "test-validaciones": "cypress run --spec ./cypress/e2e/iniciarPruebas/*.cy.js",
+    "test-login": "cypress run --spec ./cypress/e2e/login/*.cy.js",
+    "test-documentos": "cypress run --spec ./cypress/e2e/tagger-ui-dev/documentosProcesados/TC-006.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
