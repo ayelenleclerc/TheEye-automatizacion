@@ -5,7 +5,7 @@ class LoginPageTagger{
         title: () => cy.get('p'),
         usernameInput: () => cy.get('#mat-input-0'),
         passwordInput: () => cy.get('#mat-input-1'),
-        loginButton: () => cy.get('.mat-button-wrapper'),
+        loginButton: () => cy.get('body > app-root > div > login-screen > div > div.login-container > form > button'),
         profileButton: () => cy.get(':nth-child(2) > .mat-focus-indicator'),
         profileUsername: () => cy.get('.username > span'),
         qatest: () => cy.get('.mat-menu-content > :nth-child(1) > span'),

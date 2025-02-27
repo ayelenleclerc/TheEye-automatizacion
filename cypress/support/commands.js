@@ -17,7 +17,7 @@ Cypress.Commands.add('Logout_tagger', () => {
 Cypress.Commands.add('Login_tagger_Session', () => {
     
         cy.session('Login_tagger_Session', () => {
-                cy.visit("https://tagger-ui-dev.theeye.io/login");
+                cy.visit("https://tagger-ui-exp.theeye.io/login");
                 cy.Login_tagger();
                 cy.url().should('contain', '/home')
 
