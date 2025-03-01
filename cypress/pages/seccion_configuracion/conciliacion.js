@@ -21,7 +21,8 @@ class Conciliacion{
             tdSourceSchemaField: () => cy.get('[data-test="conciliacion-add-source-schema-field"]'),
             thSourceSchemaSelect: () => cy.get('[data-test="conciliacion-add-source-schema-select"]'),
             thSourceSchemaOption: () => cy.get('[data-test="conciliacion-add-source-schema-option-{{schema.id}}"]'),
-                
+            spanOptionText: () => cy.get('.mdc-list-item__primary-text'),    
+            
             thTargetSchema: () => cy.get('[data-test="conciliacion-td-footer-target-schema"]'),
             thTargetSchemaField: () => cy.get('[data-test="conciliacion-add-target-schema-field"]'),
             thTargetSchemaSelect: () => cy.get('[data-test="conciliacion-add-target-schema-select"]'),
@@ -37,40 +38,41 @@ class Conciliacion{
             thCustomMappingAddBtn: () => cy.get('[data-test="conciliacion-add-custom-mapping-button"]'),
             thCustomMappingAddIcon: () => cy.get('[data-test="conciliacion-add-custom-mapping-icon"]'),
             modal: {
-                camporOptionDialog: () => cy.get('#mat-mdc-dialog-10'),
-                campoTitle: () => cy.get('#mat-mdc-dialog-title-10'),
-                opcion: {
-                    percepciones: () => cy.get('#mat-mdc-chip-168'),
-                    cae: () => cy.get('#mat-mdc-chip-169'),
-                    codigoDocumento: () => cy.get('#mat-mdc-chip-170'),
-                    cuitJuridica: () => cy.get('#mat-mdc-chip-171'),
-                    cuitProveedor: () => cy.get('#mat-mdc-chip-172'),
-                    domicilioJuridica: () => cy.get('#mat-mdc-chip-173'),
-                    domicilioProveedor: () => cy.get('#mat-mdc-chip-174'),
-                    fechaCae: () => cy.get('#mat-mdc-chip-175'),
-                    fechaEmision: () => cy.get('#mat-mdc-chip-176'),
-                    importeExento: () => cy.get('#mat-mdc-chip-177'),
-                    importeNetoGravado: () => cy.get('#mat-mdc-chip-178'),
-                    importeNoGravado: () => cy.get('#mat-mdc-chip-179'),
-                    importeOtrosTributos: () => cy.get('#mat-mdc-chip-180'),
-                    importeTotal: () => cy.get('#mat-mdc-chip-181'),
-                    items: () => cy.get('#mat-mdc-chip-182'),
-                    iva10_5: () => cy.get('#mat-mdc-chip-183'),
-                    iva21: () => cy.get('#mat-mdc-chip-184'),
-                    iva27: () => cy.get('#mat-mdc-chip-185'),
-                    letraDocumento: () => cy.get('#mat-mdc-chip-186'),
-                    moneda: () => cy.get('#mat-mdc-chip-187'),
-                    numeroComprobante: () => cy.get('#mat-mdc-chip-188'),
-                    numeroFactura: () => cy.get('#mat-mdc-chip-189'),
-                    ordenCompra: () => cy.get('#mat-mdc-chip-190'),
-                    puntoVenta: () => cy.get('#mat-mdc-chip-191'),
-                    razonSocialJuridica: () => cy.get('#mat-mdc-chip-192'),
-                    razonSocialProveedor: () => cy.get('#mat-mdc-chip-193'),
-                    tipoCambio: () => cy.get('#mat-mdc-chip-194'),
-                    tipoDocumento: () => cy.get('#mat-mdc-chip-195'),
+                
+                campoTitle: () =>cy.get('#mat-mdc-dialog-title-1'),
+                camposDisponibles: () => cy.get(':nth-child(1) > h3'),
+                // opcion: {
+                //     percepciones: () => cy.get('#mat-mdc-chip-168'),
+                //     cae: () => cy.get('#mat-mdc-chip-169'),
+                //     codigoDocumento: () => cy.get('#mat-mdc-chip-170'),
+                //     cuitJuridica: () => cy.get('#mat-mdc-chip-171'),
+                //     cuitProveedor: () => cy.get('#mat-mdc-chip-172'),
+                //     domicilioJuridica: () => cy.get('#mat-mdc-chip-173'),
+                //     domicilioProveedor: () => cy.get('#mat-mdc-chip-174'),
+                //     fechaCae: () => cy.get('#mat-mdc-chip-175'),
+                //     fechaEmision: () => cy.get('#mat-mdc-chip-176'),
+                //     importeExento: () => cy.get('#mat-mdc-chip-177'),
+                //     importeNetoGravado: () => cy.get('#mat-mdc-chip-178'),
+                //     importeNoGravado: () => cy.get('#mat-mdc-chip-179'),
+                //     importeOtrosTributos: () => cy.get('#mat-mdc-chip-180'),
+                //     importeTotal: () => cy.get('#mat-mdc-chip-181'),
+                //     items: () => cy.get('#mat-mdc-chip-182'),
+                //     iva10_5: () => cy.get('#mat-mdc-chip-183'),
+                //     iva21: () => cy.get('#mat-mdc-chip-184'),
+                //     iva27: () => cy.get('#mat-mdc-chip-185'),
+                //     letraDocumento: () => cy.get('#mat-mdc-chip-186'),
+                //     moneda: () => cy.get('#mat-mdc-chip-187'),
+                //     numeroComprobante: () => cy.get('#mat-mdc-chip-188'),
+                //     numeroFactura: () => cy.get('#mat-mdc-chip-189'),
+                //     ordenCompra: () => cy.get('#mat-mdc-chip-190'),
+                //     puntoVenta: () => cy.get('#mat-mdc-chip-191'),
+                //     razonSocialJuridica: () => cy.get('#mat-mdc-chip-192'),
+                //     razonSocialProveedor: () => cy.get('#mat-mdc-chip-193'),
+                //     tipoCambio: () => cy.get('#mat-mdc-chip-194'),
+                //     tipoDocumento: () => cy.get('#mat-mdc-chip-195'),
 
-                },
-                cerrarModal: () => cy.get('#mat-mdc-dialog-10 > div > div > app-fields-dialog > mat-dialog-actions > button'),
+                // },
+                cerrarModal: () => cy.get('div > div > app-fields-dialog > mat-dialog-actions > button'),
             },
             thMondeyTolerance: () => cy.get('[data-test="conciliacion-th-money-tolerance"]'),
             thMondeyToleranceIcon: () => cy.get('[data-test="conciliacion-money-tolerance-icon"]'),
@@ -85,14 +87,48 @@ class Conciliacion{
             thMoneyTolerance: () => cy.get('[data-test="conciliacion-td-footer-money-tolerance"]'),
             thMoneyToleranceField: () => cy.get('[data-test="conciliacion-add-money-tolerance-field"]'),
             thMoneyToleranceInput: () => cy.get('[data-test="conciliacion-add-money-tolerance-input"]'),
-            thMoneyToleranceCounter: () => cy.get('#spin'),
+            thMoneyToleranceCounter: () =>  cy.get('input[type="number"]'),
             
-            thActions: () => cy.get('[data-test="conciliacion-td-footer-actions"]'),
+            thActions: () =>cy.get('[data-test="conciliacion-td-footer-actions"]'),
             thActionsAddBtn: () => cy.get('[data-test="conciliacion-add-button"]'),
             thActionsAddIcon: () => cy.get('[data-test="conciliacion-add-icon"]'),
             thActionsEditIcon: () => cy.get('[data-test="conciliacion-edit-icon"]'),
             thActionsRemoveIcon: () => cy.get('[data-test="conciliacion-remove-button"]'),
+      },
+      rowTable: {
+            tr: () => cy.get('[data-test="conciliacion-data-row"]'),
+            tdSourceSchema: () => cy.get('[data-test="conciliacion-td-source-schema"]'),
+            tdTargetSchema: () => cy.get('[data-test="conciliacion-td-target-schema"]'),
+            tdUseCustomMapping: () => cy.get('[data-test="conciliacion-td-use-custom-mapping"]'),
+            tdCustomMapping: () => cy.get('[data-test="conciliacion-td-custom-mapping"]'),
+            tdModalCustomMapping: () => cy.get('[data-test="conciliacion-open-custom-mapping-button"]'),
+          tdMoneyTolerance: () => cy.get('[data-test="conciliacion-td-money-tolerance"]'),
+            tdAutoMapping: () => cy.get('[data-test="conciliacion-td-auto-mapping"]'),
+            tdActions: () => cy.get('[data-test="conciliacion-td-actions"]'),
+            tdActionsEditBtn: () => cy.get('[data-test="conciliacion-edit-button"]'),
+            tdActionsRemoveBtn: () => cy.get('[data-test="conciliacion-remove-button"]'),
+            tdActionsSaveBtn: () => cy.get('[data-test="conciliacion-save-button"]'),
+            tdActionsSaveIcon: () => cy.get('[data-test="conciliacion-save-icon"]'),
+            tdActionsCancelBtn: () => cy.get('[data-test="conciliacion-cancel-button"]'),
+            tdActionsCancelIcon: () => cy.get('[data-test="conciliacion-cancel-icon"]'),
         }
+        
+    }
+    validarChipsPorTexto = (chipLabels) => {
+              
+        chipLabels.forEach((label) => {
+        cy.contains('.mat-mdc-chip', label)
+            .should('exist')
+            .and('be.visible');
+
+        // Click para seleccionar
+        cy.contains('.mat-mdc-chip', label).click();
+        cy.contains('.mat-mdc-chip', label).should('have.class', 'mdc-evolution-chip--selected');
+
+        // Click para deseleccionar
+        cy.contains('.mat-mdc-chip', label).click();
+        cy.contains('.mat-mdc-chip', label).should('not.have.class', 'mdc-evolution-chip--selected');
+    });
     }
 
 }

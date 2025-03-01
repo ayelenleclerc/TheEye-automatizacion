@@ -3,7 +3,7 @@ import Resumen from '../../../pages/seccion_configuracion/resumen.js';
 describe("Validación Pantalla de configuración- Resumen", () => {
     beforeEach(() => {
         cy.Login_tagger_Session();
-         cy.visit('/home');
+        cy.visit('/home');
         PageConfiguracion.sections.inicio.ingresarBtnConfig().click();
         PageConfiguracion.sections.sliderOpciones.resumenSection().click();
        
@@ -66,7 +66,7 @@ describe("Validación Pantalla de configuración- Resumen", () => {
         Resumen.resumen.order.addOrderInput().focus();
         Resumen.resumen.order.spinSelect().focus().should('be.visible');
         Resumen.resumen.order.spinSelect().type('{uparrow}').should('have.value', '1');
-         Resumen.resumen.order.spinSelect().type('{downarrow}').should('have.value', '0');
+        Resumen.resumen.order.spinSelect().type('{downarrow}').should('have.value', '0');
     });
     
     it('Se puede acceder a las opciones de la tabla Campos', () => {
@@ -94,7 +94,7 @@ describe("Validación Pantalla de configuración- Resumen", () => {
         
     });
 
-    it.only('validacion de los elementos de una fila,agregada por default', () => {
+    it('validacion de los elementos de una fila,agregada por default', () => {
         Resumen.resumen.tableRow.tr().should('exist');
         Resumen.resumen.tableRow.tdSchema().contains('Factura');
         Resumen.resumen.tableRow.tdMainDoc().contains('No');
