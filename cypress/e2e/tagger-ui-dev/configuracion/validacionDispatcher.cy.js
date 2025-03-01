@@ -3,7 +3,10 @@ import Dispatcher from '../../../pages/seccion_configuracion/dispatcher.js';
 describe("Validación Pantalla de configuración- Dispatcher", () => {
     beforeEach(() => {
         cy.Login_tagger_Session();
-        
+        cy.visit('/home');
+
+        PageConfiguracion.sections.inicio.ingresarBtnConfig().click();
+        PageConfiguracion.sections.sliderOpciones.dispatcherSection().click();
        
     })
 

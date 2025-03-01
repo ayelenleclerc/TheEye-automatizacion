@@ -2,7 +2,9 @@ import PageConfiguracion from '../../../pages/seccion_configuracion/pageConfigur
 describe("Validación Pantalla de configuración- Concialiación", () => {
     beforeEach(() => {
         cy.Login_tagger_Session();
-        
+        PageConfiguracion.sections.inicio.ingresarBtnConfig().click();
+        PageConfiguracion.sections.sliderOpciones.conciliacionSection().click();
+       
        
     })
 
